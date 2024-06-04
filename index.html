@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+<body>
+    
+    <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
+        <a class="navbar-brand myplaces" href="#">Places I plan to visit </a>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.google.com/search?q=mount+everest&sca_esv=2f2220d6c82008f2&sca_upv=1&ei=TcleZt67Jfzs4-EPx8-24Q8&gs_ssp=eJzj4tDP1TdIyklKMWD04s3NL80rUUgtSy1KLS4BAGUqCHs&oq=mount+&gs_lp=Egxnd3Mtd2l6LXNlcnAiBm1vdW50ICoCCAAyEBAuGIAEGLEDGEMYgwEYigUyChAuGIAEGEMYigUyChAuGIAEGEMYigUyFBAuGIAEGLEDGMcBGJgFGJkFGK8BMgUQABiABDIFEAAYgAQyCBAuGIAEGLEDMgsQLhiABBjHARivATIFEAAYgAQyBRAAGIAEMh8QLhiABBixAxhDGIMBGIoFGJcFGNwEGN4EGOAE2AEDSLQyUJYFWJMqcAN4AZABBJgBwAGgAfMOqgEEMC4xMrgBAcgBAPgBAZgCDKAC4hKoAhTCAgoQABiwAxjWBBhHwgINEAAYgAQYsAMYQxiKBcICDhAAGLADGOQCGNYE2AEBwgITEC4YgAQYsAMYQxjIAxiKBdgBAsICGRAuGIAEGLADGEMYxwEYyAMYigUYrwHYAQLCAhEQLhiABBiRAhixAxiDARiKBcICCxAAGIAEGJECGIoFwgIREC4YgAQYkQIYxwEYigUYrwHCAgUQLhiABMICIBAuGIAEGJECGLEDGIMBGIoFGJcFGNwEGN4EGOAE2AEDwgITEC4YgAQYQxi0AhiKBRjqAtgBBMICGRAuGIAEGEMYtAIYxwEYigUY6gIYrwHYAQTCAhMQABiABBhDGLQCGIoFGOoC2AEEwgIWEAAYAxi0AhjlAhjqAhiMAxiPAdgBBcICFhAuGAMYtAIY5QIY6gIYjAMYjwHYAQXCAhAQABiABBixAxhDGIMBGIoFwgILEAAYgAQYsQMYgwHCAg4QLhiABBixAxiDARiKBcICDhAAGIAEGLEDGIMBGIoFwgIZEC4YgAQYQxiKBRiXBRjcBBjeBBjgBNgBA8ICChAAGIAEGEMYigXCAg0QABiABBixAxhDGIoFwgIIEAAYgAQYsQPCAg0QLhiABBixAxhDGIoFwgIHEAAYgAQYCsICBxAuGIAEGArCAhwQLhiABBixAxhDGIoFGJcFGNwEGN4EGN8E2AEDmAMMiAYBkAYTugYGCAEQARgJugYGCAIQARgIugYGCAMQARgUugYECAQYB7oGBggFEAEYCpIHCTMuNS4zLjUtMaAH7r4B&sclient=gws-wiz-serp">Mount Everest</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.google.com/search?q=paris+france&sca_esv=2f2220d6c82008f2&sca_upv=1&ei=nMheZvuIJOmK4-EPkf6gmQc&gs_ssp=eJzj4tDP1TcwLSzJMmD04ilILMosVkgrSsxLTgUAWiIHxw&oq=paris&gs_lp=Egxnd3Mtd2l6LXNlcnAiBXBhcmlzKgIIADIKEC4YgAQYQxiKBTIIEC4YgAQYsQMyCBAuGIAEGLEDMggQABiABBixAzIOEC4YgAQYsQMYgwEYigUyBRAAGIAEMgsQABiABBixAxiDATIFEAAYgAQyBRAAGIAEMgcQLhgDGNQCMhkQLhiABBhDGIoFGJcFGNwEGN4EGOAE2AECSKwoUPAEWKsecAF4AZABAJgBsgGgAaoIqgEDMC43uAEByAEA-AEBmAIHoALwDMICChAAGLADGNYEGEfCAg0QABiABBiwAxhDGIoFwgIWEC4YgAQYsAMYQxjUAhjIAxiKBdgBAcICGRAuGIAEGLADGNEDGEMYxwEYyAMYigXYAQHCAhAQABiABBixAxhDGIMBGIoFwgIKEAAYgAQYQxiKBcICERAuGIAEGLEDGNEDGIMBGMcBwgIUEC4YgAQYsQMY0QMYgwEYxwEYigXCAg4QABiABBixAxiDARiKBcICCxAuGIAEGLEDGIMBwgILEAAYgAQYkgMYigWYAwCIBgGQBgy6BgQIARgIugYGCAIQARgUkgcHMS41LjUtMaAH640B&sclient=gws-wiz-serp">Paris</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                MORE LOCATIONS
+              </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="https://www.google.com/search?q=dead+sea&sca_esv=2f2220d6c82008f2&sca_upv=1&ei=pcheZsSkGPHW4-EPnfSumAs&gs_ssp=eJzj4tDP1TcwSs4rMGD04khJTUxRKE5NBAA7FAXr&oq=dead+se&gs_lp=Egxnd3Mtd2l6LXNlcnAiB2RlYWQgc2UqAggAMgsQLhiABBixAxiDATIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEC4YgAQyBRAAGIAEMgUQLhiABDIaEC4YgAQYsQMYgwEYlwUY3AQY3gQY4ATYAQNI5DdQ4QZYgzBwAngBkAEEmAGrAaAB0g2qAQQwLjEyuAEByAEA-AEBmAILoALVEqgCFMICChAAGLADGNYEGEfCAg0QLhiABBiwAxhDGIoFwgINEAAYgAQYsAMYQxiKBcICDhAAGLADGOQCGNYE2AEBwgITEC4YgAQYsAMYQxjIAxiKBdgBAsICGRAuGIAEGLADGEMYxwEYyAMYigUYrwHYAQLCAgoQLhiABBhDGIoFwgIZEC4YgAQYQxiKBRiXBRjcBBjeBBjgBNgBA8ICExAuGIAEGEMYtAIYigUY6gLYAQTCAhkQLhiABBhDGLQCGMcBGIoFGOoCGK8B2AEEwgITEAAYgAQYQxi0AhiKBRjqAtgBBMICFhAAGAMYtAIY5QIY6gIYjAMYjwHYAQXCAhYQLhgDGLQCGOUCGOoCGIwDGI8B2AEFwgIKEAAYgAQYQxiKBcICEBAuGIAEGEMYxwEYigUYrwHCAhEQLhiABBixAxjRAxiDARjHAcICDhAAGIAEGLEDGIMBGIoFwgIQEC4YgAQY0QMYQxjHARiKBcICCxAAGIAEGLEDGIMBwgILEAAYgAQYsQMYigXCAg4QLhiABBixAxiDARjUAsICDhAuGIAEGLEDGIMBGIoFwgIfEC4YgAQY0QMYQxjHARiKBRiXBRjcBBjeBBjgBNgBA8ICExAuGIAEGLEDGEMYgwEY1AIYigXCAggQLhiABBixA8ICCxAuGIAEGMcBGK8BwgIxEC4YgAQYsQMYQxiDARjUAhiKBRiXBRjcBBjeBBjgBBj0AxjxAxj1Axj2Axj3A9gBA8ICEBAAGIAEGLEDGEMYgwEYigXCAhAQLhiABBixAxhDGNQCGIoFwgINEAAYgAQYsQMYQxiKBcICDRAuGIAEGLEDGEMYigXCAhEQLhiABBixAxiDARjUAhiKBcICCBAAGIAEGLEDmAMXiAYBkAYTugYGCAEQARgJugYGCAIQARgIugYGCAMQARgUugYECAQYB7oGBggFEAEYCpIHCTIuNy4xLjYtMaAH3_YB&sclient=gws-wiz-serp">The Dead Sea</a></li>
+              <li><a class="dropdown-item" href="https://www.google.com/search?q=amazon+forest&sca_esv=2f2220d6c82008f2&sca_upv=1&ei=6MheZoOnCcDv4-EP0_2p0A0&gs_ssp=eJzj4tDP1TdIrjApMGD04k3MTazKz1NIyy9KLS4BAGK3CE4&oq=amazone+f&gs_lp=Egxnd3Mtd2l6LXNlcnAiCWFtYXpvbmUgZioCCAAyEBAuGIAEGLEDGEMYgwEYigUyBxAAGIAEGAoyBxAAGIAEGAoyBxAAGIAEGAoyBxAAGIAEGAoyBxAAGIAEGAoyBxAAGIAEGAoyBxAAGIAEGAoyDRAuGIAEGNEDGMcBGAoyBxAAGIAEGAoyHxAuGIAEGLEDGEMYgwEYigUYlwUY3AQY3gQY4ATYAQNI3F9QoQdYhk5wAngBkAEDmAGwAaABxw-qAQQwLjE1uAEByAEA-AEBmAIPoAKsNagCFMICChAAGLADGNYEGEfCAg0QABiABBiwAxhDGIoFwgIOEAAYsAMY5AIY1gTYAQHCAhMQLhiABBiwAxhDGMgDGIoF2AECwgIKEAAYgAQYQxiKBcICBRAAGIAEwgIFEC4YgATCAhMQLhiABBhDGLQCGIoFGOoC2AEEwgITEAAYgAQYQxi0AhiKBRjqAtgBBMICFhAAGAMYtAIY5QIY6gIYjAMYjwHYAQXCAhYQLhgDGLQCGOUCGOoCGIwDGI8B2AEFwgIKEC4YgAQYQxiKBcICFhAuGIAEGLEDGNEDGEMYgwEYxwEYigXCAgsQLhiABBjRAxjHAcICERAuGIAEGLEDGNEDGIMBGMcBwgIOEAAYgAQYsQMYgwEYigXCAhEQLhiABBixAxjHARiKBRivAcICBBAAGAPCAhkQLhiABBhDGIoFGJcFGNwEGN4EGOAE2AEDwgIQEAAYgAQYsQMYQxiDARiKBcICDRAAGIAEGLEDGEMYigXCAhoQLhiABBixAxiDARjHARiYBRiaBRieBRivAcICGRAuGIAEGLEDGNEDGEMYgwEYxwEYyQMYigWYAwqIBgGQBhO6BgYIARABGAm6BgYIAhABGAi6BgYIAxABGBS6BgQIBBgHugYGCAUQARgKkgcKMi4xMC43LTIuMaAHz9UB&sclient=gws-wiz-serp">Amazon Forest</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="https://www.google.com/search?q=cape+town&sca_esv=2f2220d6c82008f2&sca_upv=1&ei=GMleZvmzBOG14-EPqcGckAs&gs_ssp=eJzj4tDP1TcwrMwyMmD04kxOLEhVKMkvzwMAP7oGWQ&oq=cape+&gs_lp=Egxnd3Mtd2l6LXNlcnAiBWNhcGUgKgIIADIQEC4YgAQYsQMYQxiDARiKBTIKEC4YgAQYQxiKBTIKEAAYgAQYQxiKBTIKEC4YgAQYQxiKBTIUEC4YgAQYsQMYxwEYmAUYmgUYrwEyBRAuGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMggQLhiABBjUAjIfEC4YgAQYsQMYQxiDARiKBRiXBRjcBBjeBBjgBNgBBUj9N1DLBViZLnACeAGQAQSYAbkBoAHuEqoBBDAuMTe4AQHIAQD4AQGYAgugAu0dqAIUwgIKEAAYsAMY1gQYR8ICDRAAGIAEGLADGEMYigXCAg4QABiwAxjkAhjWBNgBAcICExAuGIAEGLADGEMYyAMYigXYAQLCAhMQLhiABBhDGLQCGIoFGOoC2AEDwgITEAAYgAQYQxi0AhiKBRjqAtgBA8ICFhAAGAMYtAIY5QIY6gIYjAMYjwHYAQTCAhYQLhgDGLQCGOUCGOoCGIwDGI8B2AEEwgILEAAYgAQYsQMYgwHCAggQABiABBixA8ICERAuGIAEGLEDGNEDGIMBGMcBwgILEC4YgAQYsQMYgwHCAg4QABiABBixAxiDARiKBcICFhAuGIAEGLEDGNEDGEMYgwEYxwEYigXCAg0QLhiABBhDGNQCGIoFwgIQEAAYgAQYsQMYQxiDARiKBcICDRAuGIAEGLEDGEMYigXCAiUQLhiABBixAxjRAxhDGIMBGMcBGIoFGJcFGNwEGN4EGOAE2AEFwgIOEC4YgAQYkQIYyQMYigXCAhAQLhiABBjRAxhDGMcBGIoFwgILEAAYgAQYkgMYigXCAggQLhiABBixA8ICHRAuGIAEGJECGMkDGIoFGJcFGNwEGN4EGN8E2AEFwgIZEC4YgAQYQxiKBRiXBRjcBBjeBBjgBNgBBZgDH4gGAZAGEroGBggBEAEYCboGBggCEAEYCLoGBAgDGAe6BgYIBBABGAq6BgYIBRABGBSSBw0yLjUuMS41LTEuMS4xoAeP7gE&sclient=gws-wiz-serp">Cape Town, South Africa</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+        <h4 class="plc" id="scrollspyHeading1">Mount Everest</h4>
+        <p class="loca">Mount Everest, the highest mountain in the world, stands at 8,848.86 meters (29,031.7 feet) above sea level and is part of the Himalayan range, straddling the border between Nepal and the Tibet Autonomous Region of China. Known locally as "Chomolungma" in Tibet and "Sagarmatha" in Nepal, Everest was first successfully summited by Sir Edmund Hillary of New Zealand and Tenzing Norgay, a Sherpa of Nepal, on May 29, 1953. The mountain poses extreme challenges to climbers due to its harsh climate, where temperatures can plummet to -60°C (-76°F) and oxygen levels are significantly lower than at sea level. Climbers typically use the Southeast Ridge from Nepal or the North Ridge from Tibet to reach the summit, starting from base camps at 5,364 meters (17,598 feet) in Nepal and 5,150 meters (16,900 feet) in Tibet. Despite the dangers of avalanches, crevasses, and severe weather, Everest attracts many adventurers, impacting both the environment and local Sherpa communities who assist climbers. Efforts are ongoing to manage waste and address the effects of climate change on the mountain's glaciers. Everest remains a symbol of human ambition and the ultimate test of endurance and resilience.
+<img src="img/everest.jpg" height="500px" width="100%" alt="">
+
+
+
+
+        </p>
+        <h4 class="plc" id="scrollspyHeading2">Paris</h4>
+        <p class="loca">Paris, the capital city of France, is renowned for its rich history, art, fashion, and culture. Situated on the banks of the River Seine, Paris is often referred to as "The City of Light" due to its pivotal role during the Age of Enlightenment and its early adoption of street lighting. The city is home to iconic landmarks such as the Eiffel Tower, Notre-Dame Cathedral, and the Louvre Museum, which houses the Mona Lisa. Known for its charming streets, cafes, and vibrant atmosphere, Paris is a global center for art, cuisine, and fashion. It attracts millions of tourists annually, making it one of the most visited cities in the world. Paris also plays a significant role in international politics, hosting numerous international organizations, including UNESCO and the OECD.
+<img src="img/paris.jpg" height="500px" width="100%" alt="">
+
+
+
+
+        </p>
+        <h4 class="plc" id="scrollspyHeading3">The Dead Sea</h4>
+        <p class="loca">The Dead Sea, located at the lowest point on Earth's surface between Jordan to the east and Israel and the West Bank to the west, is a remarkable natural wonder known for its extreme salinity and mineral-rich composition. With a salt concentration of approximately 34.2%, nearly ten times that of the ocean, its waters create a buoyancy that allows people to float effortlessly. This unique environment, coupled with the therapeutic properties of its mineral-laden mud, has made the Dead Sea a popular destination for tourists seeking health benefits and relaxation. Historically significant, the area has been referenced in various religious texts and has long been a site for wellness practices. However, the Dead Sea faces significant environmental challenges, including a decreasing water level and the formation of sinkholes, largely due to water diversion and industrial activities. Despite these issues, it remains a fascinating and vital part of the region's natural and cultural heritage.</p>
+        <img src="img/dead sea.jpg" height="500px" width="100%" alt="">
+        
+        <h4 class="plc" id="scrollspyHeading4">Amazon Forest</h4>
+        <p class="loca">The Amazon rainforest, sprawling across most of northern South America, is the world's largest rainforest and a treasure trove of biodiversity. Encompassing over half of the world's remaining rainforests, it's like a green lung for the planet, absorbing vast amounts of carbon dioxide.  This vast jungle is crisscrossed by the mighty Amazon River and its tributaries, sheltering an incredible number of plant and animal species, many still undiscovered.  It's a place of immense natural beauty and scientific significance.</p>
+            <img src="img/amazon.jpg" height="500px" width="100%" alt="">
+        <h4 class="plc" id="scrollspyHeading5">Cape Town, South Africa</h4>
+        <p class="loca">Cape Town, nicknamed the "Mother City", is a vibrant port city at the southwestern tip of South Africa.  This historic city boasts natural beauty with Table Mountain, a flat-topped wonder, looming large.  Cable cars whisk visitors up the slopes for breathtaking views. Beyond the mountain's shadow lies a modern metropolis with a rich cultural heritage, delicious cuisine, and exciting nightlife.  Cape Town offers something for everyone, from relaxing on pristine beaches to exploring Robben Island, the prison that once housed Nelson Mandela.</p>
+      <img src="img/capetown.jpg" height="500px" width="100%" alt="">
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
